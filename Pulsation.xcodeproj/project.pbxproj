@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72EBBE661B5742F600444290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE651B5742F600444290 /* main.m */; };
+		72EBBE691B5742F600444290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE681B5742F600444290 /* AppDelegate.m */; };
+		72EBBE711B5742F600444290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EBBE701B5742F600444290 /* Images.xcassets */; };
+		72EBBE741B5742F600444290 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72EBBE721B5742F600444290 /* LaunchScreen.xib */; };
+		72EBBE801B5742F600444290 /* PulsationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE7F1B5742F600444290 /* PulsationTests.m */; };
+		72EBBE951B57431700444290 /* ActivityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE8C1B57431700444290 /* ActivityTableViewController.m */; };
+		72EBBE961B57431700444290 /* StravaAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE8E1B57431700444290 /* StravaAPIClient.m */; };
+		72EBBE971B57431700444290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EBBE8F1B57431700444290 /* Main.storyboard */; };
+		72EBBE981B57431700444290 /* StravaActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE911B57431700444290 /* StravaActivity.m */; };
+		72EBBE991B57431700444290 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE931B57431700444290 /* Constants.m */; };
+		72EBBE9C1B57459A00444290 /* ActivityDetailMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EBBE9B1B57459A00444290 /* ActivityDetailMapViewController.m */; };
+		72EFE6441B5945AC00ECCF5B /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFE6431B5945AC00ECCF5B /* UIImage+Circle.m */; };
+		72EFE6471B59758D00ECCF5B /* HRUserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFE6461B59758D00ECCF5B /* HRUserLocation.m */; };
+		72EFE64A1B59895000ECCF5B /* HeartRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFE6491B59895000ECCF5B /* HeartRateViewController.m */; };
+		F2F93CAD40CFA57A47113558 /* libPods-Pulsation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C667EA793EA353408BA100A1 /* libPods-Pulsation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72EBBE7A1B5742F600444290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72EBBE581B5742F600444290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72EBBE5F1B5742F600444290;
+			remoteInfo = Pulsation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DFCFFA6987C4EDA47058420 /* Pods-Pulsation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulsation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pulsation/Pods-Pulsation.release.xcconfig"; sourceTree = "<group>"; };
+		72EBBE601B5742F600444290 /* Pulsation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulsation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EBBE641B5742F600444290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EBBE651B5742F600444290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72EBBE671B5742F600444290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72EBBE681B5742F600444290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72EBBE701B5742F600444290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72EBBE731B5742F600444290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		72EBBE791B5742F600444290 /* PulsationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EBBE7E1B5742F600444290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EBBE7F1B5742F600444290 /* PulsationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PulsationTests.m; sourceTree = "<group>"; };
+		72EBBE8B1B57431700444290 /* ActivityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewController.h; sourceTree = "<group>"; };
+		72EBBE8C1B57431700444290 /* ActivityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewController.m; sourceTree = "<group>"; };
+		72EBBE8D1B57431700444290 /* StravaAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StravaAPIClient.h; sourceTree = "<group>"; };
+		72EBBE8E1B57431700444290 /* StravaAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StravaAPIClient.m; sourceTree = "<group>"; };
+		72EBBE8F1B57431700444290 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		72EBBE901B57431700444290 /* StravaActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StravaActivity.h; sourceTree = "<group>"; };
+		72EBBE911B57431700444290 /* StravaActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StravaActivity.m; sourceTree = "<group>"; };
+		72EBBE921B57431700444290 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		72EBBE931B57431700444290 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		72EBBE9A1B57459A00444290 /* ActivityDetailMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityDetailMapViewController.h; sourceTree = "<group>"; };
+		72EBBE9B1B57459A00444290 /* ActivityDetailMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailMapViewController.m; sourceTree = "<group>"; };
+		72EFE6421B5945AC00ECCF5B /* UIImage+Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		72EFE6431B5945AC00ECCF5B /* UIImage+Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+		72EFE6451B59758D00ECCF5B /* HRUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRUserLocation.h; sourceTree = "<group>"; };
+		72EFE6461B59758D00ECCF5B /* HRUserLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRUserLocation.m; sourceTree = "<group>"; };
+		72EFE6481B59895000ECCF5B /* HeartRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateViewController.h; sourceTree = "<group>"; };
+		72EFE6491B59895000ECCF5B /* HeartRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateViewController.m; sourceTree = "<group>"; };
+		C667EA793EA353408BA100A1 /* libPods-Pulsation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pulsation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3690FFEF09C8E216CBC868D /* Pods-Pulsation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulsation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pulsation/Pods-Pulsation.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72EBBE5D1B5742F600444290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F93CAD40CFA57A47113558 /* libPods-Pulsation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EBBE761B5742F600444290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61CCCB521528DFAEB911EC9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3690FFEF09C8E216CBC868D /* Pods-Pulsation.debug.xcconfig */,
+				1DFCFFA6987C4EDA47058420 /* Pods-Pulsation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		72EBBE571B5742F600444290 = {
+			isa = PBXGroup;
+			children = (
+				72EBBE621B5742F600444290 /* Pulsation */,
+				72EBBE7C1B5742F600444290 /* PulsationTests */,
+				72EBBE611B5742F600444290 /* Products */,
+				61CCCB521528DFAEB911EC9D /* Pods */,
+				DF38067AA2973B8813E70793 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72EBBE611B5742F600444290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72EBBE601B5742F600444290 /* Pulsation.app */,
+				72EBBE791B5742F600444290 /* PulsationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72EBBE621B5742F600444290 /* Pulsation */ = {
+			isa = PBXGroup;
+			children = (
+				72EBBE671B5742F600444290 /* AppDelegate.h */,
+				72EBBE681B5742F600444290 /* AppDelegate.m */,
+				72EBBE8B1B57431700444290 /* ActivityTableViewController.h */,
+				72EBBE8C1B57431700444290 /* ActivityTableViewController.m */,
+				72EBBE9A1B57459A00444290 /* ActivityDetailMapViewController.h */,
+				72EBBE9B1B57459A00444290 /* ActivityDetailMapViewController.m */,
+				72EBBE8D1B57431700444290 /* StravaAPIClient.h */,
+				72EBBE8E1B57431700444290 /* StravaAPIClient.m */,
+				72EBBE8F1B57431700444290 /* Main.storyboard */,
+				72EBBE9D1B574B8400444290 /* Models */,
+				72EBBE921B57431700444290 /* Constants.h */,
+				72EBBE931B57431700444290 /* Constants.m */,
+				72EFE6421B5945AC00ECCF5B /* UIImage+Circle.h */,
+				72EFE6431B5945AC00ECCF5B /* UIImage+Circle.m */,
+				72EFE6451B59758D00ECCF5B /* HRUserLocation.h */,
+				72EFE6461B59758D00ECCF5B /* HRUserLocation.m */,
+				72EFE6481B59895000ECCF5B /* HeartRateViewController.h */,
+				72EFE6491B59895000ECCF5B /* HeartRateViewController.m */,
+				72EBBE701B5742F600444290 /* Images.xcassets */,
+				72EBBE721B5742F600444290 /* LaunchScreen.xib */,
+				72EBBE631B5742F600444290 /* Supporting Files */,
+			);
+			path = Pulsation;
+			sourceTree = "<group>";
+		};
+		72EBBE631B5742F600444290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72EBBE641B5742F600444290 /* Info.plist */,
+				72EBBE651B5742F600444290 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72EBBE7C1B5742F600444290 /* PulsationTests */ = {
+			isa = PBXGroup;
+			children = (
+				72EBBE7F1B5742F600444290 /* PulsationTests.m */,
+				72EBBE7D1B5742F600444290 /* Supporting Files */,
+			);
+			path = PulsationTests;
+			sourceTree = "<group>";
+		};
+		72EBBE7D1B5742F600444290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72EBBE7E1B5742F600444290 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72EBBE9D1B574B8400444290 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72EBBE901B57431700444290 /* StravaActivity.h */,
+				72EBBE911B57431700444290 /* StravaActivity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DF38067AA2973B8813E70793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C667EA793EA353408BA100A1 /* libPods-Pulsation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72EBBE5F1B5742F600444290 /* Pulsation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EBBE831B5742F600444290 /* Build configuration list for PBXNativeTarget "Pulsation" */;
+			buildPhases = (
+				8D4DFDC5055C5673C8CFBF89 /* Check Pods Manifest.lock */,
+				72EBBE5C1B5742F600444290 /* Sources */,
+				72EBBE5D1B5742F600444290 /* Frameworks */,
+				72EBBE5E1B5742F600444290 /* Resources */,
+				31AFCA3C201D11EFC4315266 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pulsation;
+			productName = Pulsation;
+			productReference = 72EBBE601B5742F600444290 /* Pulsation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72EBBE781B5742F600444290 /* PulsationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EBBE861B5742F600444290 /* Build configuration list for PBXNativeTarget "PulsationTests" */;
+			buildPhases = (
+				72EBBE751B5742F600444290 /* Sources */,
+				72EBBE761B5742F600444290 /* Frameworks */,
+				72EBBE771B5742F600444290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72EBBE7B1B5742F600444290 /* PBXTargetDependency */,
+			);
+			name = PulsationTests;
+			productName = PulsationTests;
+			productReference = 72EBBE791B5742F600444290 /* PulsationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72EBBE581B5742F600444290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Henry Chan";
+				TargetAttributes = {
+					72EBBE5F1B5742F600444290 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					72EBBE781B5742F600444290 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 72EBBE5F1B5742F600444290;
+					};
+				};
+			};
+			buildConfigurationList = 72EBBE5B1B5742F600444290 /* Build configuration list for PBXProject "Pulsation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72EBBE571B5742F600444290;
+			productRefGroup = 72EBBE611B5742F600444290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72EBBE5F1B5742F600444290 /* Pulsation */,
+				72EBBE781B5742F600444290 /* PulsationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72EBBE5E1B5742F600444290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EBBE971B57431700444290 /* Main.storyboard in Resources */,
+				72EBBE741B5742F600444290 /* LaunchScreen.xib in Resources */,
+				72EBBE711B5742F600444290 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EBBE771B5742F600444290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31AFCA3C201D11EFC4315266 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pulsation/Pods-Pulsation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4DFDC5055C5673C8CFBF89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72EBBE5C1B5742F600444290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EBBE951B57431700444290 /* ActivityTableViewController.m in Sources */,
+				72EBBE961B57431700444290 /* StravaAPIClient.m in Sources */,
+				72EBBE9C1B57459A00444290 /* ActivityDetailMapViewController.m in Sources */,
+				72EBBE981B57431700444290 /* StravaActivity.m in Sources */,
+				72EBBE691B5742F600444290 /* AppDelegate.m in Sources */,
+				72EFE6471B59758D00ECCF5B /* HRUserLocation.m in Sources */,
+				72EFE6441B5945AC00ECCF5B /* UIImage+Circle.m in Sources */,
+				72EFE64A1B59895000ECCF5B /* HeartRateViewController.m in Sources */,
+				72EBBE991B57431700444290 /* Constants.m in Sources */,
+				72EBBE661B5742F600444290 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EBBE751B5742F600444290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EBBE801B5742F600444290 /* PulsationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72EBBE7B1B5742F600444290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72EBBE5F1B5742F600444290 /* Pulsation */;
+			targetProxy = 72EBBE7A1B5742F600444290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72EBBE721B5742F600444290 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72EBBE731B5742F600444290 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72EBBE811B5742F600444290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72EBBE821B5742F600444290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72EBBE841B5742F600444290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3690FFEF09C8E216CBC868D /* Pods-Pulsation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Pulsation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72EBBE851B5742F600444290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFCFFA6987C4EDA47058420 /* Pods-Pulsation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Pulsation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72EBBE871B5742F600444290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PulsationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulsation.app/Pulsation";
+			};
+			name = Debug;
+		};
+		72EBBE881B5742F600444290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PulsationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pulsation.app/Pulsation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72EBBE5B1B5742F600444290 /* Build configuration list for PBXProject "Pulsation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EBBE811B5742F600444290 /* Debug */,
+				72EBBE821B5742F600444290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72EBBE831B5742F600444290 /* Build configuration list for PBXNativeTarget "Pulsation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EBBE841B5742F600444290 /* Debug */,
+				72EBBE851B5742F600444290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72EBBE861B5742F600444290 /* Build configuration list for PBXNativeTarget "PulsationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EBBE871B5742F600444290 /* Debug */,
+				72EBBE881B5742F600444290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72EBBE581B5742F600444290 /* Project object */;
+}
